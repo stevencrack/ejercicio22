@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = np.loadtxt('datosgauus.txt')
+data = np.loadtxt('datosgauss.txt')
 
 minimo = data[:,0].min()
 maximo = data[:,0].max()
